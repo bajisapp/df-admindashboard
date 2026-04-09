@@ -1,0 +1,157 @@
+.alert-row svg,
+.action-row svg{
+margin-right:8px;
+}
+
+.action-row{
+display:flex;
+align-items:center;
+gap:8px;
+padding:6px 0;
+}
+
+.stat-box{
+border-radius:12px;
+box-shadow:0 0 0 1px #eee;
+}
+
+.alerts-title{
+font-size:16px;
+font-weight:600;
+margin-bottom:6px;
+}
+
+.alert-text{
+font-size:14px;
+color:#333;
+}
+
+.alert-time{
+font-size:10px;
+color:#888;
+}
+
+.action-row{
+font-size:14px;
+display:flex;
+align-items:center;
+gap:6px;
+padding:4px 0;
+}
+
+/* ICON COLORS */
+.icon{
+width:14px;
+height:14px;
+}
+
+/* specific colors */
+.red{
+color:#e74c3c;
+}
+
+.green{
+color:#2ecc71;
+}
+
+.action-row:nth-child(4) svg{
+color:#3b82f6;   /* marketplace */
+}
+
+.action-row:nth-child(5) svg{
+color:#6366f1;   /* trigger */
+}
+
+.action-row:nth-child(6) svg{
+color:#f59e0b;   /* create */
+}
+
+.alerts-card{
+background:#f7f8fa;
+border:1px solid #e3e6ea;
+border-radius:12px;
+padding:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.06);
+width:100%;
+}
+
+/* title */
+
+
+/* alert rows */
+.alert-item{
+display:flex;
+gap:6px;
+margin-bottom:6px;
+align-items:flex-start;
+}
+
+/* action rows */
+.action-item{
+display:flex;
+align-items:center;
+gap:6px;
+padding:4px 0;
+font-size:10px;
+color:#333;
+}
+
+/* text */
+.alert-text{
+font-size:14px;
+line-height:1.2;
+color:#333;
+}
+
+.alert-time{
+font-size:9px;
+color:#8a8f98;
+}
+
+/* divider */
+.divider{
+height:1px;
+background:#e5e7eb;
+margin:6px 0;
+}
+
+/* icons */
+.icon{
+margin-top:2px;
+}
+
+.red{ color:#ef4444; }
+.green{ color:#22c55e; }
+.blue{ color:#3b82f6; }
+.purple{ color:#6366f1; }
+.orange{ color:#f59e0b; }
+
+.btn-market{
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:6px;
+border:none;
+padding:6px;
+font-size:10px;
+border-radius:8px;
+color:white;
+background:linear-gradient(90deg,#1e3a5f,#0b2e4f);
+margin-top:6px;
+}
+
+.btn-trigger{
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:6px;
+border:none;
+padding:6px;
+font-size:10px;
+border-radius:8px;
+color:white;
+background:linear-gradient(90deg,#f4b942,#e67e22);
+margin-top:6px;
+}

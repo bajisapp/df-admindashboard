@@ -1,0 +1,30 @@
+.recharts-cartesian-axis-tick-value {
+font-size: 11px;
+fill: #777;
+}
+
+.legend-dot{
+width:10px;
+height:10px;
+border-radius:50%;
+display:inline-block;
+margin-right:5px;
+}
+
+.co2{
+background:#6c8ea3;
+}
+
+.pm{
+background:#3cb371;
+}
+
+.recharts-cartesian-axis-tick-value{
+font-size:11px;
+fill:#7c7c7c;
+}
+
+.stat-box{
+border-radius:12px;
+box-shadow:0 0 0 1px #eee;
+}

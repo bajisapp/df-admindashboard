@@ -1,0 +1,31 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1px;
+}
+
+.card-header {
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.donut-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.blue { background:#12395B }
+.teal { background:#3C7E86 }
+.navy { background:#244A86 }
